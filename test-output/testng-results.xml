@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-31T16:04:14 IST" name="Suite" finished-at="2022-03-31T16:05:29 IST" duration-ms="74789">
+    <groups>
+    </groups>
+    <test started-at="2022-03-31T16:04:14 IST" name="Test" finished-at="2022-03-31T16:05:29 IST" duration-ms="74789">
+      <class name="testScripts.FacebookPage">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testScripts.FacebookPage@654f0d9c]" started-at="2022-03-31T16:04:14 IST" name="openApp" finished-at="2022-03-31T16:04:35 IST" duration-ms="20482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc2()[pri:0, instance:testScripts.FacebookPage@654f0d9c]" started-at="2022-03-31T16:04:35 IST" name="tc2" finished-at="2022-03-31T16:05:10 IST" duration-ms="34660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.FacebookPage@654f0d9c]" started-at="2022-03-31T16:05:10 IST" name="closeApp" finished-at="2022-03-31T16:05:10 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc2 status=SUCCESS method=FacebookPage.tc2()[pri:0, instance:testScripts.FacebookPage@654f0d9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testScripts.FacebookPage -->
+      <class name="testScripts.AddingtoCart">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testScripts.AddingtoCart@1ea9f6af]" started-at="2022-03-31T16:05:10 IST" name="openApp" finished-at="2022-03-31T16:05:14 IST" duration-ms="4247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="tc1()[pri:0, instance:testScripts.AddingtoCart@1ea9f6af]" started-at="2022-03-31T16:05:14 IST" name="tc1" finished-at="2022-03-31T16:05:29 IST" duration-ms="14881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:testScripts.AddingtoCart@1ea9f6af]" started-at="2022-03-31T16:05:29 IST" name="closeApp" finished-at="2022-03-31T16:05:29 IST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc1 status=SUCCESS method=AddingtoCart.tc1()[pri:0, instance:testScripts.AddingtoCart@1ea9f6af] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testScripts.AddingtoCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
