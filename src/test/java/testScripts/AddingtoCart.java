@@ -1,5 +1,6 @@
 package testScripts;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import genericLib.BaseClass;
@@ -8,6 +9,7 @@ import pomPages.SkillraryDemoApp;
 import pomPages.SkillraryLoginPage;
 
 public class AddingtoCart extends BaseClass {
+	//@Parameters({"browserName"})
 	@Test
 	public void tc1() {
 		SkillraryLoginPage s = new SkillraryLoginPage(driver);
